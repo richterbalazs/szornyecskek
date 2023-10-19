@@ -1,0 +1,56 @@
+article {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(4, 110px);
+    background: black;
+    border: 1px solid white;
+    padding: 10px;
+    max-width: 800px;
+}
+
+h1 {
+    color: green;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px;
+    max-width: 798px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 5px;
+    border: 1px solid black;
+    max-width: 818px;
+}
+
+nav ul li {
+    padding: 10px;
+    background-color: green;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+nav ul a:hover {
+    color: brown;
+}
+
+nav ul li:hover {
+    background-color: blueviolet;
+}
+
+div {
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
